@@ -16,24 +16,24 @@ function destructivelyRemoveFirstCat(){
     cats.shift()
 }
 function appendCat(){
-const cats1=cats.slice()
-cats1.push("Broom")
-    return cats1
+const catsA=cats.slice()
+catsA.push("Broom")
+    return catsA
    
 }
 function prependCat(){
-  const cats2=cats.slice()
-  cats2.unshift("Arnold")
-return cats2
+  const catsB=cats.slice()
+  catsB.unshift("Arnold")
+return catsB
 }
 
 function removeLastCat(){
-   const cats3=cats.slice()
-    cats3.pop()
-    return cats3
+   const catsC=cats.slice()
+    catsC.pop()
+    return catsC
 }
 function removeFirstCat(){
-    const cats4=cats.slice()
-    cats4.shift()
-    return cats4
+    const catsD=cats.slice()
+    catsD.shift()
+    return catsD
 }
